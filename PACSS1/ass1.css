@@ -1,0 +1,28 @@
+h1, h2 {
+    color: brown;
+}
+
+span{
+    color: rgb(29, 2, 29);
+}
+p{
+    color: rgb(110, 13, 32);
+}
+.mahathi {
+    letter-spacing:2px ;
+    font-family: monospace;
+    color:crimson ;
+}
+a{
+    background-color: yellow;
+    color: red;
+}
+.one{
+color:rgb(110, 13, 32) ;
+}
+
+.two{
+    background-color: yellow;
+    color:crimson ;
+     
+}
