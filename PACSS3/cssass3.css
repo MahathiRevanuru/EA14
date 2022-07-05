@@ -1,0 +1,181 @@
+body{
+    background-color: gray;
+}
+h3{
+    background-color: white;
+    text-align: center;
+    color:purple;
+    border: 5px solid red;
+    border-radius: 10px;
+    
+    text-shadow: 2px 2px 3px rgb(219, 42, 77);
+    font-style:italic ;
+    box-shadow: 5px 2px rgb(156, 24, 50); 
+    width: 350px;
+    height:100px;
+    padding-top: 20px;
+position:relative;
+margin-left: 700px;
+top:25px;
+}
+.float{
+    border:10px solid green;
+    border-style:groove;
+    width:96vw;
+    height:100vh;
+
+}
+.test1{
+  background-color: white;
+  border: 5px solid red;  
+  border-radius: 10px;
+  width:250px;
+  height:250px;
+  box-shadow: 5px 3px rgb(156, 77, 77);
+float:right;
+margin-right: 50px;
+}
+img{
+    height:250px;
+    width:250px;
+}
+.test2{
+    background-color: white;
+    border: 5px solid red;  
+    border-radius: 10px;
+    width:250px;
+    height:250px;
+    box-shadow: 5px 3px rgb(156, 77, 77);  
+    font-size:25px; 
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px -2px 2px rgb(31, 11, 11);
+}
+.test3{
+    background-color: white;
+    border: 5px solid red;  
+    border-radius: 10px;
+    width:250px;
+    height:250px;
+    box-shadow: 5px 3px rgb(156, 77, 77);   
+    float:right;
+    margin-right: 50px;
+    margin-top:320px;
+
+}
+.test4{
+    background-color: white;
+    border: 5px solid red;  
+    border-radius: 10px;
+    width:250px;
+    height:250px;
+    box-shadow: 5px 3px rgb(156, 77, 77);   
+    margin-top:320px;
+    font-weight: bolder;
+    font-size:1.5rem;
+    text-align: left;
+    text-shadow: 2px -2px 2px rgb(31, 11, 11);
+
+
+}
+h2{
+    text-align: center;
+    text-shadow: 2px -2px 2px rgb(31, 11, 11);
+}
+form{
+    text-align: center;
+    text-shadow: 2px -2px 2px rgb(31, 11, 11);
+}
+
+.exiting{
+    width:400px;
+    height:70px;
+    border:6px solid red;
+    background-color: lightgreen;
+    border-radius:10px;
+    text-align:center;
+    position:fixed;
+    top:450px;
+    left:600px;
+    box-shadow: 5px 3px rgb(156, 77, 77);
+
+}
+.offer1 {
+width:140px;
+height:60px;
+border:1px solid none;
+text-align:center;
+font-style:italic;
+color:brown;
+float:right;
+margin-top:-5px;
+margin-right:10px
+}
+.offer2{
+    width:220px;
+    height:60px;
+    border:1px solid none;
+    text-align:center;
+    font-style:italic;
+    color:brown;
+    font-weight:larger;
+    margin-top:5px
+}
+.store{
+    background-color: green;
+    border:10px solid purple;
+    width:850px;
+    height:1000px;
+    margin-left:400px;
+    margin-right:500px;
+}
+h4{
+    text-align: center;
+    font-size:2rem;
+    font-weight: bolder;
+}
+h5{
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    font-size:30px;
+    padding-top: 40px;
+    padding-bottom:5px;
+    border-bottom:2px solid purple;
+    
+}
+.vegetables {
+    width:400px;
+    height:400px;
+    background-color: rgb(236, 189, 69);
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    font-style: italic;
+    font-weight:bold;
+    float:right;
+
+}
+.fruits {
+    width:400px;
+    height:400px;
+    background-color: rgb(236, 189, 69);
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    font-style: italic;
+    font-weight:bold;
+    float:left;
+    position:relative;
+
+}
+.others {
+    width:850px;
+    height:435px;
+    background-color: rgb(236, 189, 69);
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    font-style: italic;
+    font-weight:bold;
+    position:absolute;
+    margin-top:80px;
+    top:1650px; 
+}
