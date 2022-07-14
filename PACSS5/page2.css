@@ -1,0 +1,42 @@
+body{
+    background-color: gold;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    align-content: center;
+    gap: 30px;
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color: black;
+}
+.p2 {
+    transition: all 3.5s linear;
+}
+
+.p2:hover {
+    width: 600px;
+}
+.p3 {
+    transition: all 3.5s linear;
+}
+
+.p3:hover {
+    width: 400px;
+    height: 400px;
+}
+.back{
+    font-size: 50px;
+    color:brown
+}
+.next{
+    font-size: 50px;
+    color:blue;
+}

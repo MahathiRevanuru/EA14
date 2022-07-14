@@ -1,0 +1,144 @@
+body{
+    background-image: url(sky.jpg);
+}
+.heading{
+    display:flex;
+    /* align-content: center; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 45%;
+    margin-left: 27%;
+    z-index: 10;
+
+}
+.happy{
+    background-color: rgb(255, 123, 0);
+    font-size: 40px;
+    margin: 5px;  
+}
+.independence{
+ background-color: white;
+ font-size: 40px;
+    margin: 5px; 
+}
+.day{
+background-color: green;
+font-size: 40px;
+    margin: 5px; 
+}
+img{
+    position: relative;
+    left: 75%;
+    bottom: 20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+.test1{
+    position: block;
+    width: 200%;
+    height: 200px;
+    background-image: url(city.png);
+    background-repeat: repeat;
+    z-index: 1;
+    animation: city;
+    animation-duration:8s;
+    animation-direction:  linear;
+    animation-iteration-count: infinite;
+}
+@keyframes city {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-600px);
+    }
+}
+.test2{
+   
+        position: block;
+        width: 200vw;
+        height: 350px;
+        margin-top: 0;
+        background-image: url(road.jpg);
+        background-repeat: repeat;
+        animation: road;
+        animation-duration:3s;
+        animation-direction:  linear;
+        animation-iteration-count: infinite;
+        
+}
+@keyframes road{
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-1200px);
+    }
+}
+.test3{
+    width: 400px;
+    height: 26vh;
+    /* background-image: url(car.png); */
+    position: absolute;
+    top: 58vh;
+    left: 30vw;
+    animation: car;
+    animation-duration:0.8s;
+    animation-direction:  linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes car {
+    from {
+        top: 58vh;
+    }
+
+    to {
+        top: 57.7vh;
+    }
+}
+.test5{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 72vh; 
+    left: 32.4vw;
+    animation: linear wheel1 1s infinite;
+}
+.test6{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 72vh; 
+    left: 50.2vw;
+    animation: linear wheel1 1s infinite;
+}
+@keyframes wheel1 {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.test7{
+    width: 40px;
+    height: 20vh;
+    position: absolute;
+    top: 52vh;
+    left: 53.5vw;
+    animation: linear flag 0.8s infinite;
+}
+@keyframes flag {
+    from {
+        top: 53vh;
+    }
+
+    to {
+        top: 52.8vh;
+    }
+}

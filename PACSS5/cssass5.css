@@ -1,0 +1,125 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+.b1{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box1{
+    width:100px;
+    height:100px;
+    background-color: crimson;
+    margin: 20px;
+    animation:one;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+@keyframes one {
+    from{
+transform: skewX( 20deg);
+    }
+to{
+transform: skewX( -20deg);
+}
+    
+}
+.box2{
+    width:100px;
+    height:100px;
+    background-color:deeppink;
+    margin: 20px;
+    animation:two;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+@keyframes two {
+    from{
+transform: skewY( 20deg);
+    }
+to{
+transform: skewY( -20deg);
+}
+}
+.box3{
+    width:100px;
+    height:100px;
+    background-color:indianred;
+    margin: 20px;
+    animation:three;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+@keyframes three {
+    from{
+transform: rotate( 0deg);
+    }
+to{
+transform: rotate( 360deg);
+}
+}
+.box4{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    margin: 20px;
+    animation:four;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+@keyframes four {
+    from{
+transform: rotateX( 0deg);
+    }
+to{
+transform: rotateX( 50deg);
+}
+}
+.box5{
+    width:100px;
+    height:100px;
+    background-color:green;
+    margin: 20px;
+    animation:five;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+@keyframes five {
+    from{
+transform: rotateY( 0deg);
+    }
+to{
+transform: rotateY( 50deg);
+}
+}
+.box6{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    margin: 20px;
+    animation:six;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+}
+@keyframes six {
+    from{
+transform: rotateZ( 0deg);
+    }
+to{
+transform: rotateZ( 50deg);
+}
+}
+a{
+    font-size: 30px;
+}
